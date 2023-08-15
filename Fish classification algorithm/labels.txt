@@ -1,0 +1,68 @@
+Albacore Tuna 
+Amberjack
+Atlantic Salmon
+Australian Salmon 
+Australian Bass
+Australian Bonito 
+Australian Sawtail
+Banded Morwong 
+Banded Rockcod
+Bass Groper 
+Big-Eye Tuna
+Black Marlin
+Blue Drummer
+Blue Marlin
+Blue-Eye Trevalla
+Bream
+Brook Trout 
+Brown Trout
+Cobia
+Eastern (Freshwater) Cod 
+Eastern Red Scorpionfish
+Estuary Perch
+Flathead Dusky
+Flounder
+Freshwater Catfish (Eel-tailed)
+Garfish Eastern Sea
+Gemfish
+Golden Perch
+Grey Morwong
+Groper BlueRedBrown
+Hairtail
+Hapuku
+Jackass Morwong 
+Leatherjacket
+Longfin Eel 
+Longtail Tuna
+Luderick
+Macquarie Perch
+Mahi Mahi
+Mangrove Jack
+Moses Snapper (Perch) 
+Mullet Poddy All others
+Mulloway (Jewfish)
+Murray Cod
+Pearl Perch 
+Rainbow Trout
+Red Morwong
+Rock Blackfish (Black Drummer)
+Sailfish 
+Samsonfish
+Shortfin Eel 
+Silver Perch
+Snapper
+Southern Bluefin Tuna
+Spanish Mackerel
+Spearfish 
+Spotted Mackerel
+Striped Marlin
+Swordfish
+Tailor 
+Tarwhine 
+Teraglin
+Trevally 
+Trout Cod
+Wahoo
+Whiting 
+Yellowfin Tuna
+Yellowtail Kingfish
