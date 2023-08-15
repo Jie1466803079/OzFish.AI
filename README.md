@@ -19,7 +19,6 @@ This Android Application contains 3 major functionalities:
 
 DOCUMENTATION
 
-This repository houses a collection of three documents:
+This repository houses two documents:
 1. The coding documentation of the fish classification algorithm (README file included);
-2. The coding documentation of the Android application;
-3. Several demonstration videos are provided to instruct users on how to use the OzFish.AI App.
+2. Several demonstration videos are provided to instruct users on how to use the OzFish.AI App.
