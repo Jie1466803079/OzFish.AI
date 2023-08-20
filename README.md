@@ -21,4 +21,4 @@ DOCUMENTATION
 
 This repository houses two documents:
 1. The coding documentation of the fish classification algorithm (README file included);
-2. Several demonstration videos are provided to instruct users on how to use the OzFish.AI App.
+2. Mobile application demonstration videos.
