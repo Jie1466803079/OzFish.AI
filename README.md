@@ -1,26 +1,23 @@
 # OzFish.AI: An AI-Powered Mobile Application to Combat Illegal Fishing in NSW
+**PROJECT OVERVIEW**
 
-PROJECT OVERVIEW
+For my master's capstone, I led a six-member team in addressing a pertinent issue in Australia: illegal fishing. At times, recreational fishers, due to a lack of knowledge or resources, inadvertently catch fish that either belong to a protected species or don't meet size criteria. This not only harms the marine ecosystem but can also lead to potential fines. Although some mobile applications attempt to aid in fish identification, they often fall short in accuracy. Hence, we developed the OzFish.AI Android application. Through this app, users can easily snap a photo of their catch to instantly learn about its species and size, thus ensuring their fishing practices are compliant with regulations. Additionally, this project contributes a comprehensive dataset on New South Wales fish species for future studies, a highly accurate transfer-learning-based fish identification algorithm, and an Android application for aiding fishers in real time.
 
-This is my master's degree capstone project. In this project, I took on the role of team leader for our group, which comprised six members. Our project achieved the first-place ranking in the capstone evaluations.
+**APP FEATURES**
 
-Illegal fishing has been a serious problem in Australia. Some unintentional activities, such as taking fish illegitimately due to the inability to identify the species, might adversely affect the ecosystem. It is crucial for recreational anglers to follow fish regulations. However, it is inconvenient for them to identify fish species by referring to the brochures and measuring the fish length using rulers, which significantly lowers the overall enjoyment of recreational fishing. Besides, it is confusing for some recreational anglers or travellers to distinguish fish species with their limited fishing knowledge.  Taking the wrong fish species or exceeding the size limit may result in fines. There are some existing fishing mobile applications on the market, and very limited applications can be used to detect the fish species automatically, or they cannot provide a high accuracy rate for their detection. It can be seen that the existing applications cannot help recreational anglers solve their issues. An Android application OzFish.AI is developed to address the issues mentioned. It is easy for a recreational angler to take a picture of a fish and obtain information about the species and the size by clicking a button to determine whether it is legal to take the catch. This project will result in an extensive dataset of fish species native to New South Wales for future research, a transfer-learning-based fish classification algorithm with high accuracy, and an Android application, which will assist in storing and transforming the necessary data so that end-users can receive detailed information on fish species, size, and fish guide.
+Our Android app, OzFish.AI, boasts three primary features:
+1. **Fish Recognition (Fish.Identify)**:
+	- By leveraging the phone's camera, users can identify any of the 68 fish species indigenous to NSW.
+	- Using an embedded ML algorithm, the app then offers detailed information about the fish species, boasting an impressive top-5 accuracy rate of 90.22%.
+2. **Fish Sizing (Fish.Measure)**:
+	- With the integration of AR technology, users can ascertain the exact length of their catch.
+	- This measurement can be combined with the Fish Recognition feature to give fishers insights like whether their catch meets the mandated size criteria.
+3. **Fish Database Lookup (Fish.Search)**:
+	- Users can delve into the app's database to retrieve comprehensive data about specific fish species.
+	- Our database covers details on 74 fish species from NSW, including some subtypes of the 68 species pinpointed in the Fish.Identify feature.
 
-APPLICATION FUNCTIONALITIES
+**INCLUDED RESOURCES**
 
-This Android Application contains 3 major functionalities:
-1. Fish Classification (Fish.Identify)
-	- This function will identify 68 NSW fish species using the device's rear camera to take a picture of the fish.
-	- The application's integrated ML algorithm categorizes the image, subsequently providing the user with the identified fish species, achieving a top-5 accuracy rate of 90.22%.
-2. Fish Measurement (Fish.Measure)
-	- This function enables the user to accurately measure their fish's length using AR technologies.
-	- This function can be used in collaboration with the Fish Classification function to provide additional context to the user, such as if the measured fish meets minimimum fish length requirements for that fish species.
-3. Fish Searching (Fish.Search)
-	- This function enables the user to search the contained fish species database for relevant information about a particular fish species.
-	- The fish database currently contains 74 NSW fish species (some are subspecies of the 68 species identified in the Fish.Identify function).
-
-DOCUMENTATION
-
-This repository houses two documents:
-1. The coding document of the fish classification algorithm (README file included);
-2. Mobile application demonstration videos.
+Contained within this repository are:
+1. Detailed code documentation pertaining to the fish identification algorithm, inclusive of a README file.
+2. Videos showcasing the mobile application in action.
