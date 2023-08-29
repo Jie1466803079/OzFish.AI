@@ -3,6 +3,10 @@
 
 For my master's capstone, I led a six-member team in addressing a pertinent issue in Australia: illegal fishing. At times, recreational fishers, due to a lack of knowledge or resources, inadvertently catch fish that either belong to a protected species or don't meet size criteria. This not only harms the marine ecosystem but can also lead to potential fines. Although some mobile applications attempt to aid in fish identification, they often fall short in accuracy. Hence, we developed the OzFish.AI Android application. Through this app, users can easily snap a photo of their catch to instantly learn about its species and size, thus ensuring their fishing practices are compliant with regulations. Additionally, this project contributes a comprehensive dataset on New South Wales fish species for future studies, a highly accurate transfer-learning-based fish identification algorithm, and an Android application for aiding fishers in real time.
 
+**ROLE**
+
+I led a six-member team for my Master's Capstone Project. 
+
 **APP FEATURES**
 
 Our Android app, OzFish.AI, boasts three primary features:
