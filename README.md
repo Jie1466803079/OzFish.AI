@@ -1,27 +1,58 @@
-# OzFish.AI: An AI-Powered Mobile Application to Combat Illegal Fishing in NSW
-**PROJECT OVERVIEW**
+# OzFish.AI — AI Fish Identification & Sizing for NSW
 
-This project aims to address a pertinent issue in Australia: illegal fishing. At times, recreational fishers, due to a lack of knowledge or resources, inadvertently catch fish that either belong to a protected species or don't meet size criteria. This not only harms the marine ecosystem but can also lead to potential fines. Although some mobile applications attempt to aid in fish identification, they often fall short in accuracy. Hence, we developed the OzFish.AI Android application. Through this app, users can easily snap a photo of their catch to instantly learn about its species and size, thus ensuring their fishing practices are compliant with regulations. Additionally, this project contributes a comprehensive dataset on New South Wales fish species for future studies, a highly accurate transfer-learning-based fish identification algorithm, and an Android application for aiding fishers in real time.
+> Android app that lets recreational fishers photograph a catch to identify its
+> species and measure its length, helping keep their fishing compliant with NSW
+> size regulations.
+>
+> **Master's Capstone Project · Led a six-person team · Ranked Top 1 in cohort**
 
-**ROLE**
+`InceptionV3` · `Transfer Learning` · `Keras` · `TensorFlow Lite` · `Android` · `AR`
 
-I led a six-member team for my Master's Capstone Project. 
+## Problem
+Recreational fishers sometimes unknowingly catch fish that belong to a protected
+species or don't meet size criteria, which harms the marine ecosystem and can lead
+to fines. Existing fish-identification apps often fall short in accuracy.
 
-**APP FEATURES**
+## Solution
+With OzFish.AI, users snap a photo of their catch to instantly learn its species and
+size, helping keep their fishing compliant. Three features:
 
-Our Android app, OzFish.AI, boasts three primary features:
-1. **Fish Recognition (Fish.Identify)**:
-	- By leveraging the phone's camera, users can identify any of the 68 fish species indigenous to NSW.
-	- Using an embedded ML algorithm, the app then offers detailed information about the fish species, boasting an impressive top-5 accuracy rate of 90.22%.
-2. **Fish Sizing (Fish.Measure)**:
-	- With the integration of AR technology, users can ascertain the exact length of their catch.
-	- This measurement can be combined with the Fish Recognition feature to give fishers insights like whether their catch meets the mandated size criteria.
-3. **Fish Database Lookup (Fish.Search)**:
-	- Users can delve into the app's database to retrieve comprehensive data about specific fish species.
-	- Our database covers details on 74 fish species from NSW, including some subtypes of the 68 species pinpointed in the Fish.Identify feature.
+| Feature | What it does |
+|---|---|
+| **Fish.Identify** | Identifies any of **68 NSW fish species** from the camera — **top-5 accuracy 90.22%** |
+| **Fish.Measure** | Uses **AR** to measure catch length against NSW size regulations |
+| **Fish.Search** | Looks up a database covering **74 NSW fish species** |
 
-**INCLUDED RESOURCES**
+## How it works
+1. **Data** — the WildFish and NSWFish datasets, each split 60% train / 20% validation / 20% test.
+2. **Model** — trained an **InceptionV3** network via transfer learning (Keras); best model + weights saved to `.h5`.
+3. **Deploy** — converted to **TensorFlow Lite** (`InceptionV3_weights02.tflite`) and integrated it, with `labels.txt`, into the Android app.
+4. **Measure** — AR estimates catch length, combined with recognition to check against NSW size regulations.
 
-Contained within this repository are:
-1. Detailed code documentation pertaining to the fish identification algorithm, inclusive of a README file.
-2. Videos showcasing the mobile application in action.
+This project also contributes a comprehensive NSW fish-species dataset for future studies.
+
+## Demo
+**[App demonstration videos](https://drive.google.com/drive/u/0/folders/13NMRPDizouPpJL1hRPQVtX--I5rPQ7R6)**
+· APK in [`APK & Demonstration Videos/`](./APK%20%26%20Demonstration%20Videos)
+
+## Repository structure
+    Fish classification algorithm/
+    ├── InceptionV3_FinalModel.py               # train InceptionV3, save best model, export TFLite
+    ├── split_train_validation_test_nswfish.py  # 60/20/20 dataset splitting
+    ├── split_train_validation_test_wildfish.py
+    ├── labels.txt                              # NSW species labels for the app
+    └── README.txt                              # step-by-step training guide
+    APK & Demonstration Videos/                 # installable APK + demo videos
+
+## Reproduce
+Steps (from `Fish classification algorithm/README.txt`):
+1. Download the WildFish and NSWFish datasets (links in that README).
+2. Run the `split_train_validation_test_*.py` scripts to build the 60/20/20 splits.
+3. Run `InceptionV3_FinalModel.py` to train; test accuracy prints after running, model exports to `.tflite`.
+4. Integrate the `.tflite` file and `labels.txt` into the Android application.
+
+## Tech
+Python · Keras · TensorFlow Lite · InceptionV3 · Android · AR
+
+## Team & role
+Master's Capstone Project — I led a six-person team; the capstone ranked Top 1 in the cohort.
