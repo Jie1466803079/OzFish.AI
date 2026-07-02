@@ -9,8 +9,12 @@
 `InceptionV3` · `Transfer Learning` · `Keras` · `TensorFlow Lite` · `Android` · `AR`
 
 <p align="center">
-  <img src="docs/ozfish-home.png" alt="OzFish.AI home screen — Identify, Measure, Search" width="300">
+  <img src="docs/ozfish-home.png" width="185" alt="Home screen">
+  <img src="docs/ozfish-identify.png" width="185" alt="Fish.Identify">
+  <img src="docs/ozfish-info.png" width="185" alt="Fish.Info">
+  <img src="docs/ozfish-measure.png" width="185" alt="Fish.Measure (AR)">
 </p>
+<p align="center"><sub><b>Home</b> &middot; <b>Fish.Identify</b> &middot; <b>Fish.Info</b> &middot; <b>Fish.Measure</b> — AR length + legal-size check</sub></p>
 
 ## Problem
 Recreational fishers sometimes unknowingly catch fish that belong to a protected
