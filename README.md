@@ -8,6 +8,10 @@
 
 `InceptionV3` · `Transfer Learning` · `Keras` · `TensorFlow Lite` · `Android` · `AR`
 
+<p align="center">
+  <img src="docs/ozfish-home.png" alt="OzFish.AI home screen — Identify, Measure, Search" width="300">
+</p>
+
 ## Problem
 Recreational fishers sometimes unknowingly catch fish that belong to a protected
 species or don't meet size criteria, which harms the marine ecosystem and can lead
